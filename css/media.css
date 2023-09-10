@@ -1,0 +1,19 @@
+header div.upimg h2{
+    font-family:aswald;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+header div.upimg h1{
+    font-family:aswald;
+    font-size: 2.5rem;
+    letter-spacing: 2.5px;
+}
+main #leftside,main #rightside{
+    float: none;
+    width: 100%;
+
+}
+#rightside{
+    margin: 0px 10px;
+
+}

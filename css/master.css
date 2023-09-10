@@ -1,0 +1,472 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: aswald;
+    src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: opensans;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+/* start nav */
+nav{
+    background-color: black;
+    width: 100%;
+}
+nav a{
+   color: white;
+    padding: 11px 13px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav #search{
+    float: right;
+}
+nav a:hover{
+    background: #ccc;
+    color:black;
+}
+/* end nav */
+/* start text */
+.text{
+    padding: 40px 0px;
+    font-family: aswald;
+    text-align: center;
+}
+div h1{
+    font-size: 2.6rem;
+    line-height: 72px;
+}
+p mark{
+    background: black;
+    color: white;
+    padding: 0px 8px;
+}
+/* end text*/
+/* Start heder */
+header{
+    width: 100%;
+    position: relative;
+}
+header img{
+    width: 100%;
+}
+header div.upimg{
+    position: absolute;
+    color: white;
+    top: 37%;
+    left: 20px;
+}
+header div.upimg h2{
+    font-family:aswald;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+header div.upimg h1{
+    font-family:aswald;
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+header div.upimg input{
+    border: none;
+    padding: 15px 25px;
+    background: rgb(160,160,160);
+}
+header div.upimg input:hover{
+    background: rgb(225, 225, 225);
+}
+/* end heder */
+ /* start main  */
+main{
+    background-color: #F1F1F1;
+}
+/* start leftside */
+main #leftside{
+    float: left;
+    width: 70%;
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+article{
+    margin-bottom: 20px;
+}
+article #space{
+    padding-top: 20px;
+}
+main #leftside article{
+
+    padding: 20px 30px;
+    background-color: white;
+}
+.article1{
+    text-align: center;
+    font-family: aswald;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+ .article2{
+    text-align: center;
+    font-family: aswald;
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+.article2 span{
+    color: #818181;
+    line-height: 35px;
+}
+/* article img{
+    width: 100%;
+    padding-top: 20px; 
+} */
+article div p{
+    font-family: opensans;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 15px;
+}
+.mainartical{
+    padding: 20px;
+}
+div.articlecontent p{
+    padding: 10px;
+}
+.articalbutton button.buton1{
+float: left;
+padding: 10px 20px;
+background-color: white;
+color: black;
+border: 0.5px solid silver;
+}
+.articalbutton button.buton1 i{
+    padding-right: 10px;
+}
+.articalbutton button.buton1:hover{
+    background-color: silver;
+}
+.articalbutton button.buton2{
+float: right;
+background: black;
+color: white;
+padding: 10px 20px;
+border: none;
+}
+.articalbutton button.buton2 span{
+    background-color: white;
+    color: black;
+    padding: 3px 7px;
+
+}
+.articalbutton button.buton2:hover{
+    background: silver;
+    color: black;
+}
+article div.spacehr{
+    padding: 30px;
+
+}
+.articalfooter{
+    display: none;
+}
+.articalfooter .right{
+    float: right;
+    width: 85%;
+    padding-left: 5px;
+    padding-top: 20px;
+    
+}
+.articalfooter .right #edit{
+    font-family: opensans;
+    font-size: 1rem;
+    
+}
+.articalfooter .left{
+    float: left;
+    width: 15%;
+
+}
+.articalfooter .right p{
+    font-family: aswald;
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+.articalfooter .right p span{
+    color: #7E7E7E;
+    font-size: 1rem;
+}
+.forpading{
+    padding-top:25px;
+}
+
+/* end leftside */
+/* start right */
+main #rightside{
+    float: right;
+    width: 30%;
+    background-color: #F1F1F1;
+}
+.imgs{
+    padding-top: 26px;
+    /* padding-right:25px;   */
+    filter: grayscale(75%);
+    width: 100%;
+
+}
+.artcailfterimg{
+    background-color: black;
+    color: white;
+    width: 94.7%;
+    padding: 13px;
+    margin-top: -5px;
+}
+#rightside.artcailfterimg #font1{
+    font-family: aswald;
+    padding: 10px;
+    font-size: 1.2rem;
+    
+}
+#rightside.artcailfterimg #font2{
+    font-family: opensans;
+    line-height: 23px;
+    font-size: 15px;
+
+}
+/* ------------------------------------- */
+ .content1{
+    background-color: black;
+    width: 94.7%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.content1 h3{
+    font-family: aswald;
+    color: white;
+}
+.sectioncontent{
+    width:94.7%;
+    background-color: white;
+}
+.sectioncontent#post ul{
+    padding: 0px;
+    list-style-type: none;
+}
+.sectioncontent#post ul li{
+    padding: 10px;
+    border-top: 1px solid silver;
+}
+.sectioncontent#post ul li .left{
+    float: left;
+    width: 13%;
+}
+.sectioncontent#post ul li .right{
+    float: right;
+    width: 87%;
+}
+.sectioncontent#post ul li .right p{
+    padding: 5px 13px;
+    font-family: opensans;
+}
+ #post ul:hover{
+    background-color: silver;
+}
+/* .sectioncontent{
+    padding: 15px;
+} */
+.sectioncontent p#photoher{
+    background-color: #F1F1F1;
+    padding: 70px;
+    text-align: center;
+    font-family: opensans;
+    font-size: 15px;
+}
+#Advertise{
+    padding: 20px;
+}
+.sectioncontent p#photoher{
+background-color: #F1F1F1;
+padding: 70px;
+text-align: center;
+font-family: opensans;
+font-size: 15px;}
+.sectioncontent#tags{
+    margin: 2px 0px;
+}
+
+#tags span{
+    background-color:#F1F1F1;
+    padding: 0px 5px;
+    margin: 2px 3px;
+}
+#tags span.s1{
+    background-color: black;
+    color: white;
+}
+#Follow{
+    padding: 13px 11px;
+    font-size: 1.4rem;
+    display: inline-block;
+    
+}
+#Follow i:hover{
+
+    color: silver;
+    
+}
+
+
+/* ------------------------------- */
+ #open{
+    font-family: opensans;
+    font-size: 15px;
+    padding: 20px;
+}
+input.typ1{
+    width: 91%;
+    padding: 10px;
+    border: 1px solid silver;
+    margin-left: 20px;
+}
+button.b1{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 91%;
+    margin-bottom: 19px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    font-family: opensans;
+    border: none;
+}
+button.b1:hover{
+    background-color: silver;
+    color: black;
+}
+.clear{
+    clear: both;
+}
+/* end right */
+
+
+/* end main */
+
+/* start footer */
+footer{
+    background-color: #616161;
+    padding:50px 34px;
+}
+footer >a{
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: opensans;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+footer >a i{
+    padding-right: 10px;
+}
+footer >a:hover{
+    background-color: #ccc;
+    color: black;
+}
+footer p{
+    color: white;
+    padding-top: 25px;
+    font-family: opensans;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+footer p a{
+    color: white;
+}
+/* end footer */
+
+/* start Subscribe */
+#Subscribe{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.2);
+    top: 0px;
+    visibility: hidden;
+}
+#Subscribe div{
+    width: 60%;
+    margin: auto;
+    margin-top:100px ;
+    padding: 30px;
+    background-color: white;
+    
+   
+}
+#Subscribe div #close{
+    float: right;
+    border: none;
+    font-weight: bold;
+    background-color:transparent;
+    color: black;
+    font-size: 1.5rem;
+    padding: 6px 10px;
+}
+#Subscribe div #close:hover{
+    background-color: silver;
+
+}
+#Subscribe div h1{
+    font-family: aswald;
+    font-size: 35px;
+    font-weight: normal;
+    
+}
+#Subscribe div p{
+    font-family: opensans;
+    margin-bottom: 10px;
+}
+#Subscribe div input{
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+}
+#Subscribe div #Subscribes{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#Subscribe div #Subscribes:hover{
+    background-color: silver;
+    color: black;
+}
+
+/* end Subscribe */
+@media screen and (max-width:800px){
+    header div.upimg{
+        
+        top: 16%;
+        
+    }
+}
+/* @media screen and (max-width:600px){
+    header div.upimg h2{
+        font-family:aswald;
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+    header div.upimg h1{
+        font-family:aswald;
+        font-size: 2.5rem;
+        letter-spacing: 2.5px;
+    }
+    main #leftside,main #rightside{
+        float: none;
+        width: 100%;
+
+    }
+
+} */
